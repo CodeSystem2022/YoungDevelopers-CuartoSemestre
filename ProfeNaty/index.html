@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cursos.com</title>
+</head>
+<body>
+    <header>
+        <h1>Cursos de Programación💻</h1>
+    </header>
+    <main>
+        <h2>¡Descubre nuestros cursos!</h2>
+        <div class="image-container">
+            <img src="./media/css-flaticon.png" alt="Curso 1">
+            <img src="./media/html-flaticon.png" alt="Curso 2">
+            <img src="./media/javas.png" alt="Curso 3">
+        </div>
+        <h2>Selecciona un curso:</h2>
+        <form action="#">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="input-nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="input-apellido">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="curso">Cursos:</label>
+            <select id="curso" name="curso">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+            <button type="submit">Inscribirse</button>
+        </form>
+        <div class="chat-button">
+            <a href="#">Chat en línea📞</a>
+        </div>
+    </main>
+</body>
+</html>
