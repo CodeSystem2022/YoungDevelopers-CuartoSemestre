@@ -1,0 +1,99 @@
+02:02:31: PM:DEBUG [cursor_del_pool.py:16] Inicio del metodo with y __enter__
+02:02:32: PM:DEBUG [conexion.py:49] creaci�n del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000184D38E5C60>
+02:02:32: PM:DEBUG [conexion.py:25] conexion obtenida del pool: <connection object at 0x00000184D38C8260; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+02:02:32: PM:DEBUG [persona_dao.py:64] Persona Insertada:  
+            Id Persona: None, 
+            Nombre: Marcos, 
+            Apellido: Tejada, 
+            Email: mtejada@gmail.com
+        
+02:02:32: PM:DEBUG [cursor_del_pool.py:29] Se ejecuta el metodo exit
+02:02:32: PM:DEBUG [cursor_del_pool.py:41] Commit de la transacci�n
+02:02:32: PM:DEBUG [conexion.py:61] Regresamos la conexion del Pool: <connection object at 0x00000184D38C8260; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+02:02:32: PM:DEBUG [persona_dao.py:99] Personas insertadas: 1
+02:02:32: PM:DEBUG [cursor_del_pool.py:16] Inicio del metodo with y __enter__
+02:02:32: PM:DEBUG [conexion.py:25] conexion obtenida del pool: <connection object at 0x00000184D38C8260; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+02:02:32: PM:DEBUG [cursor_del_pool.py:29] Se ejecuta el metodo exit
+02:02:32: PM:DEBUG [cursor_del_pool.py:41] Commit de la transacci�n
+02:02:32: PM:DEBUG [conexion.py:61] Regresamos la conexion del Pool: <connection object at 0x00000184D38C8260; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 1, 
+            Nombre: Juan Jose, 
+            Apellido: Pena, 
+            Email: JJpena@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 2, 
+            Nombre: Carla, 
+            Apellido: Gomez, 
+            Email: Kgomez@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 8, 
+            Nombre: Carlos, 
+            Apellido: Lara, 
+            Email: clara@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 9, 
+            Nombre: Marcos, 
+            Apellido: Canto, 
+            Email: mcanto@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 10, 
+            Nombre: Marcelo, 
+            Apellido: Cuenca, 
+            Email: Cuencam@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 12, 
+            Nombre: Mar�a, 
+            Apellido: Esparza, 
+            Email: mesparza@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 14, 
+            Nombre: Jorge, 
+            Apellido: Prol, 
+            Email: Jprol@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 15, 
+            Nombre: Alex, 
+            Apellido: Rojas, 
+            Email: arojas@gmail.com
+        
+02:02:32: PM:DEBUG [persona_dao.py:105]  
+            Id Persona: 18, 
+            Nombre: Marcos, 
+            Apellido: Tejada, 
+            Email: mtejada@gmail.com
+        
+03:12:33: PM:DEBUG [cursor_del_pool.py:16] Inicio del metodo with y __enter__
+03:12:34: PM:DEBUG [conexion.py:49] creaci�n del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022D2E28BF70>
+03:12:34: PM:DEBUG [conexion.py:25] conexion obtenida del pool: <connection object at 0x0000022D2FE1C040; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:12:34: PM:DEBUG [usuario_dao.py:20] Seleccionando usuarios
+03:12:35: PM:DEBUG [cursor_del_pool.py:29] Se ejecuta el metodo exit
+03:12:35: PM:DEBUG [cursor_del_pool.py:41] Commit de la transacci�n
+03:12:35: PM:DEBUG [conexion.py:61] Regresamos la conexion del Pool: <connection object at 0x0000022D2FE1C040; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:12:35: PM:INFO [menu_app_usuario.py:15] Id Usuario: 1, Username: jperez
+, password: 123
+03:12:35: PM:INFO [menu_app_usuario.py:15] Id Usuario: 2, Username: kgomez, password: 456
+03:14:56: PM:INFO [menu_app_usuario.py:18] Salimos de la aplicacion, Hasta pronto
+03:16:23: PM:INFO [menu_app_usuario.py:15] Id Usuario: 1, Username: jperez
+, password: 123
+03:16:23: PM:INFO [menu_app_usuario.py:15] Id Usuario: 2, Username: kgomez, password: 456
+03:16:26: PM:INFO [menu_app_usuario.py:18] Salimos de la aplicacion, Hasta pronto
+03:35:51: PM:INFO [menu_app_usuario.py:23] Usuario insertado: 1
+03:36:56: PM:INFO [menu_app_usuario.py:31] Usuario actualizado correctamente: 1
+03:37:22: PM:INFO [menu_app_usuario.py:16] Id Usuario: 1, Username: jperez
+, password: 123
+03:37:22: PM:INFO [menu_app_usuario.py:16] Id Usuario: 2, Username: Karla, password: 2
+03:37:22: PM:INFO [menu_app_usuario.py:16] Id Usuario: 4, Username: mlara, password: None
+03:37:58: PM:INFO [menu_app_usuario.py:31] Usuario actualizado correctamente: 1
+03:38:01: PM:INFO [menu_app_usuario.py:16] Id Usuario: 1, Username: jperez
+, password: 123
+03:38:01: PM:INFO [menu_app_usuario.py:16] Id Usuario: 2, Username: Karla, password: 2
+03:38:01: PM:INFO [menu_app_usuario.py:16] Id Usuario: 4, Username: mlara, password: 4
+03:38:10: PM:INFO [menu_app_usuario.py:40] Salimos de la aplicacion, Hasta pronto
