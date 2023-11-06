@@ -17,3 +17,37 @@ function adios(nombre, otroCallback){
         otroCallback();
     }, 1500);
 }
+
+// Funcion recursiva
+function conversacion(nombre, veces, callback){
+    if (veces > 0) {
+        hablar( function () {
+            conversacion(nombre, --veces, callback);
+        });
+
+    } else {
+        callback(nombre, callback);
+    }
+}
+
+//--Proceso principal
+console.log('Iniciando el proceso...');
+hola('Ariel', function(nombre) {
+    conversacion(nombre, 4, function () {
+        console.log('Terminando el proceso...');
+    });
+});
+//hola('Carlos', function(nombre) {
+//    hablar(function() {
+//        hablar(function() {
+//            hablar(function() {
+//                hablar(function() {
+//                    adios(nombre, function(){
+//                        console.log('Terminando el proceso...');
+//                    });    
+//                });
+//            });
+//        });
+//    });
+//});
+
