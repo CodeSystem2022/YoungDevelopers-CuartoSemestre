@@ -18,3 +18,28 @@ function hablar(nombre){
     
 }
 
+function adios(nombre) {
+    return new Promise((resolve, reject) => {
+            setTimeout( function() {
+                console.log('Adios '+ nombre);
+                //resolve(); 
+                reject('Hay un error');
+        }, 1500);
+    })
+    
+}
+
+//Llamamos a la funcion
+console.log('Iniciando el proceso...');
+hola('Ariel')
+    .then(hablar)
+    .then(hablar)
+    .then(hablar)
+    .then(adios)
+    .then((nombre) => {
+        console.log('Terminando el proceso');
+    })
+    .catch(error => {
+        console.log('Ha habido un error: ');
+        console.log(error);
+    })
