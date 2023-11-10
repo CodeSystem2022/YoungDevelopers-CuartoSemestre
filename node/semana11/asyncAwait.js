@@ -62,4 +62,25 @@ console.log('Esta va a ser la segunda instruccion')
     });
  }
 
- 
+function sayBye(name) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Goodbye " + name);
+            resolve(name);
+            //reject ('Hay un error');
+        }, 1000);
+    });
+ }
+
+ async function conversation(name){
+    console.log("Code in English")
+    console.log("Starting async process...");
+    await sayHello(name);
+    await talk();
+    await talk();
+    await talk();
+    await sayBye(name);
+    console.log("Process completed");
+ }
+
+ conversation('Ariel'); 
