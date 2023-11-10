@@ -1,0 +1,1 @@
+Añadimos las imágenes generadas
