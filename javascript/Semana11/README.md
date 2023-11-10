@@ -1,4 +1,4 @@
-Proyecto con Firebase-react by Tamara Paccini y Osman Herrera -> Parte 1
+Proyecto con Firebase-react by Tamara Paccini y Osman Herrera -> Parte 2
 Se trabajó durante la clase en un proyecto realizados por los tutores, debido a que la carga en el repositorio era opcional y por
 falta de tiempo decidimos no subir los archivos. 
 A continuación presentamos los enlaces de los videos con la explicación de cada uno.
