@@ -25,3 +25,15 @@ let intervalo = setInterval(() => {
     }
     i++;   
 }, 1000);
+
+
+setImmediate(() => {
+    console.log('Saludo inmediato');
+});
+
+//require();
+
+console.log(__filename);
+
+global.miVariable = 'mi variable global';
+console.log(miVariable);
