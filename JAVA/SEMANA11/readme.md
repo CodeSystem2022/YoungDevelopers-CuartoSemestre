@@ -16,4 +16,3 @@ Comenzamos con este proyecto realmente avanzado de la mano de Matías Carballo
 * Enlace al repositorio
 [VIDEO](https://github.com/lokywolf2295/ToDo_Front_-_API.git)
 * Es importante que sepan: en el repositorio está el README donde están hechas algunas explicaciones más para guiarnos en la construcción de esta aplicación
-[VIDEO]([https://github.com/lokywolf2295/ToDo_Front_-_API.git](https://ed.team/blog/servidores-vs-serverless-cual-es-la-mejor-opcion?utm_source=brevo&utm_campaign=%20Newsletter%20151%20%20servidores%20vs%20serverless&utm_medium=email)https://ed.team/blog/servidores-vs-serverless-cual-es-la-mejor-opcion?utm_source=brevo&utm_campaign=%20Newsletter%20151%20%20servidores%20vs%20serverless&utm_medium=email)
