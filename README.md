@@ -19,19 +19,19 @@ En este espacio, podrán encontrar y explorar los proyectos que hemos creado uti
 | SCRUM MASTER | SEMANA |
 | ------------ | ------------ |
 | Micaela Diaz  | Semana 1  |
-|  Lourdes Rebolledo | Semana 2  |
+| Lourdes Rebolledo | Semana 2 |
 | Lujan Rebolledo  |  Semana 3 |
-|  Ana Zambrana | Semana 4  |
-|  Lucas Montoya | Semana 5  |
-|  Valentin Morbidelli |  Semana 6 |
-| Agustin Ceschin  | Semana 7  |
-|             | Semana 8  |
-|         |  Semana 9 |
-|  |  Semana 10 |
-|   | Semana 11 |
-|  |  Semana 12 |
-|  |  Semana 13 |
-|  | Semana 14  |
+| Ana Zambrana | Semana 4 |
+| Lucas Montoya | Semana 5 |
+| Valentin Morbidelli | Semana 6 |
+| Micaela Diaz | Semana 7  |
+| Lourdes Rebolledo | Semana 8  |
+| Lujan Rebolledo |  Semana 9 |
+| Ana Zambrana | Semana 10 |
+| Lucas Montoya | Semana 11 |
+| Valentin Morbidelli | Semana 12 |
+| Micaela Diaz | Semana 13 |
+
 
 
 🔥 Lo que hacemos:
