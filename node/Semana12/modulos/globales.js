@@ -16,3 +16,12 @@
 //setImmdiate(() => {});
 
 //console.log(setInterval);
+
+let i = 0;
+let intervalo = setInterval(() => {
+    console.log('Hola');
+    if (i === 3) {
+        clearInterval(intervalo); //detenemos la función
+    }
+    i++;   
+}, 1000);
