@@ -19,4 +19,16 @@ Proyecto Matías Carballo Parte 3
 * Explicación del checkComplete
 [VIDEO](https://drive.google.com/file/d/1RpvGIpVAQ54ih5_dQY6YW2--EwKpOZiU/view?usp=drive_link).
 
+* Explicación dateElement y deletelco
+[VIDEO](https://drive.google.com/file/d/1p4W6tCYcjL3WzJnVmZ2gCeFrRuQky7hY/view?usp=drive_link).
+
+* Explicación addTask
+[VIDEO](https://drive.google.com/file/d/1r1hgKxrsgLl7pkG9LtVDcUm6vQlHejVz/view?usp=drive_link).
+
+*  Explicación de displayTasks
+[VIDEO](https://drive.google.com/file/d/1Jgh-ci8XTR7lNwuZAY8_qEEhDE6Tb5pn/view?usp=drive_link).
+
+* Explicación date, script.js y muestra final del proyecto
+[VIDEO](https://drive.google.com/file/d/1T4VDOMfJl3A-u3VDAL2_bEDRPNkocNDP/view?usp=drive_link).
+
 
