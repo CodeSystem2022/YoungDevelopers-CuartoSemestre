@@ -1,8 +1,11 @@
 Java: Proyecto Matías Carballo Parte 1
-Debido a la carga de trabajos y por problemas de tiempo, optamos por no cargar los trabajos realizados 
-por los tutores, ya que la carga de los mismos era opcional.
+Los trabajos realizados por los tutores eran opcionales, debido a la falta de tiempo para realizarlo decidimos no subirlos 
+al repositorio.
+A continuación presentamos los enlaces a los videos con sus respectivas explicaciones.
 
 Comenzamos con este proyecto realmente avanzado de la mano de Matías Carballo
+![image](https://github.com/CodeSystem2022/YoungDevelopers-CuartoSemestre/assets/112673733/1a2d95da-f60f-477c-b5a0-53d9f7fed068)
+
 *  Introducción y presentación del proyecto
   [VIDEO](https://drive.google.com/file/d/15tHg2kKAaRtU-A8WZA4TVUb5M0mTfLfj/view?usp=drive_link).
 * Explicación del archivo porm.xml
