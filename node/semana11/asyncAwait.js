@@ -28,3 +28,38 @@ async function adios(nombre) {
         }, 1000);
     })   
 }
+//await hola('Ariel'); // esto es una mala sintaxis
+// await solo es valido dentro de una funcion asincrona
+async function main(){
+    let nombre = await hola('Ariel');
+    await hablar();
+    await hablar();
+    await hablar();
+    await adios(nombre);
+} console.log('Termina el proceso...')
+
+console.log('Empezamos con el proceso...')
+main();
+console.log('Esta va a ser la segunda instruccion')
+
+//Codigo en Ingles
+// Es asincrona y retorna una promesa
+ function sayHello(name) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Hello " + name);
+            resolve(name);
+        }, 1000);
+    });
+ }
+
+ function talk(name){
+    return new Promise ((resolve, reject) => {
+        setTimeout(() => {
+            console.log("Bla bla bla bla");
+            resolve(name);
+        }, 1000);
+    });
+ }
+
+ 
